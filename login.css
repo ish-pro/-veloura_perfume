@@ -1,0 +1,45 @@
+/* css/login.css & css/signup.css */
+:root {
+    --burgundy: #4A0F1A;
+    --cream: #F8F1E8;
+    --soft-beige: #E8D5C5;
+    --gold: #B58A45;
+    --dark-text: #321A1A;
+}
+body, html {
+    height: 100%;
+    background-color: var(--cream);
+    font-family: 'Inter', sans-serif;
+}
+.auth-wrapper {
+    min-height: 100vh;
+}
+.auth-left-bg {
+    background: linear-gradient(rgba(74, 15, 26, 0.5), rgba(74, 15, 26, 0.5)), url('https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=1000&q=80') center/cover no-repeat;
+    color: white;
+}
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--soft-beige);
+    padding: 12px;
+    background-color: #FFF;
+    color: var(--dark-text);
+}
+.form-control:focus {
+    border-color: var(--burgundy);
+    box-shadow: none;
+}
+.btn-auth {
+    background-color: var(--burgundy);
+    color: var(--cream);
+    border-radius: 0;
+    padding: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    transition: background 0.3s;
+}
+.btn-auth:hover {
+    background-color: var(--gold);
+    color: white;
+}
