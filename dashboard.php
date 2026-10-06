@@ -1,7 +1,7 @@
 
 
 <?php
-require_once 'config/conn.php';
+require_once 'conn.php';
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
